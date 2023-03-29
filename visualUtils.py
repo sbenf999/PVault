@@ -53,13 +53,6 @@ def loading_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, 
 
 def menu_art(selection):
     if selection == 1:
-        # print(r"""
-        #            oooooooooo  ooooo  oooo                       o888    o8   
-        #             888    888  888    88  ooooooo  oooo  oooo    888  o888oo 
-        #             888oooo88    888  88   ooooo888  888   888    888   888   
-        #             888           88888  888    888  888   888    888   888   
-        #            o888o           888    88ooo88 8o  888o88 8o  o888o   888o 
-        # """)
         print()
         logo_ = "o888o           888    88ooo88 8o  888o88 8o  o888o   888o"
         size = os.get_terminal_size()
